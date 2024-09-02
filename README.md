@@ -8,7 +8,7 @@ This documents outlines the various use cases available in the sample applicatio
 Use the Apply button on the UI to populate appointments on the Schedule control. The appointments will be added for the current date and for next 2 days.
 By default the view is configured for multiple resources and work week view.
 The dates in the Calendar control are highlighted for which the appointments are present.
-![image](../images/singleresource_workweekview.png)
+![image](images/singleresource_workweekview.png)
 
 **Expectation:** The test should be able to identify number of appointments displayed in the schedule view.
 
@@ -65,11 +65,11 @@ The test should be able to select a timeslot in the Schedule to open the context
 ### 12. Appointment Context menu operation - 
 The test should be able to select an appointment to open the context menu and perform operations.
 
-### 13. Double click on selected timeslot to create appointment – 
+### 13. Double click on selected timeslot to create appointment â€“ 
 The test should be able to select the timeslot on the schedule view and perform mouse double click operation to create a new appointment.
 
 
-### 14. Change time navigator frequency – 
+### 14. Change time navigator frequency â€“ 
 The test should be able to perform right click mouse action on the time navigator bar to change the timeslot display frequency.
 The test should be able to identify the selected timeslot frequency. This can be identified using Interval property of the control.
 
