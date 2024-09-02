@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+  <data name="msgAtLeastOneColumnMustBeVisible" xml:space="preserve">
+    <value>At least one field must be shown in a view.</value>
+  </data>
+  <data name="strFieldChooserTitle" xml:space="preserve">
+    <value>Column Chooser</value>
+  </data>
+  <data name="strInformation" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="strWarning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="strError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="strQuestion" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="strPrinterNotInstalled" xml:space="preserve">
+    <value>No Printer installed in this machine.</value>
+  </data>
+  <data name="strInstallPrinter" xml:space="preserve">
+    <value>No Printers are installed. To install a printer, point to Settings on the Windows Start menu, click Printers, and then double-click Add Printer. Follow the instructions in the wizard.</value>
+  </data>
+  <data name="strPrinterError" xml:space="preserve">
+    <value>Error encountered while trying to retrieve installed printers.</value>
+  </data>
+  <data name="strNullGridExTableReference" xml:space="preserve">
+    <value>NULL GridEXTable reference</value>
+  </data>
+  <data name="strNullGridExColumnCollectionReference" xml:space="preserve">
+    <value>NULL GridEXColumnCollection reference</value>
+  </data>
+  <data name="strColumnAutoResize" xml:space="preserve">
+    <value>Column AutoResize</value>
+  </data>
+  <data name="strErrorReadingGridColumn" xml:space="preserve">
+    <value>Error reading '{0}' Column in grid. Error:{1}.</value>
+  </data>
+  <data name="strFilterRowInfoText" xml:space="preserve">
+    <value>Click here to enter filter criteria</value>
+  </data>
+  <data name="strFreezeColumn" xml:space="preserve">
+    <value>Freeze Column</value>
+  </data>
+  <data name="strHideDataFilter" xml:space="preserve">
+    <value>Hide Data Filter</value>
+  </data>
+  <data name="strHideThisColumn" xml:space="preserve">
+    <value>Hide This Column</value>
+  </data>
+  <data name="strNoFilter" xml:space="preserve">
+    <value>No Filter</value>
+  </data>
+  <data name="strNoSort" xml:space="preserve">
+    <value>No Sort</value>
+  </data>
+  <data name="strPrint" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="strResizeColumns" xml:space="preserve">
+    <value>Resize Columns</value>
+  </data>
+  <data name="strShowColumnChooser" xml:space="preserve">
+    <value>Show Column Chooser...</value>
+  </data>
+  <data name="strShowDataFilter" xml:space="preserve">
+    <value>Show Data Filter</value>
+  </data>
+  <data name="strSortAscending" xml:space="preserve">
+    <value>Sort Ascending</value>
+  </data>
+  <data name="strSortDescending" xml:space="preserve">
+    <value>Sort Descending</value>
+  </data>
+  <data name="strUnFreezeAllColumns" xml:space="preserve">
+    <value>UnFreeze All Columns</value>
+  </data>
+  <data name="strFontPoint" xml:space="preserve">
+    <value>pt.</value>
+  </data>
+  <data name="strFitColNoFit" xml:space="preserve">
+    <value>No Scaling</value>
+  </data>
+  <data name="strFitColZooming" xml:space="preserve">
+    <value>Fit all columns in one page</value>
+  </data>
+  <data name="strFitColSizing" xml:space="preserve">
+    <value>Resize columns</value>
+  </data>
+  <data name="strErrMgsAllSpaces" xml:space="preserve">
+    <value>Text value cannot be all spaces. Enter a valid value</value>
+  </data>
+  <data name="strInvalidDateValueMsg" xml:space="preserve">
+    <value>'{0}'  is not a valid value. Date value should be between '{1}' and '{2}'</value>
+  </data>
+  <data name="strActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="strInactive" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="strNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="strNewPayorTitle" xml:space="preserve">
+    <value>New Payor</value>
+  </data>
+  <data name="strNoticeTitle" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="strExport" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="BadTextInput" xml:space="preserve">
+    <value>You have entered one or more unrecognized characters.</value>
+  </data>
+  <data name="strEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="strAddItem" xml:space="preserve">
+    <value>Add Item</value>
+  </data>
+  <data name="strAmend" xml:space="preserve">
+    <value>Amend</value>
+  </data>
+  <data name="strApprove" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="strAttach" xml:space="preserve">
+    <value>Attach</value>
+  </data>
+  <data name="strCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="strCopy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="strDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="strFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="strHideError" xml:space="preserve">
+    <value>Hide Error</value>
+  </data>
+  <data name="strHistory" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="strNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="strPaste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="strRefresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="strSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="strSaveAndApprove" xml:space="preserve">
+    <value>Save and Approve</value>
+  </data>
+  <data name="strShowError" xml:space="preserve">
+    <value>Show Error</value>
+  </data>
+  <data name="strSignOff" xml:space="preserve">
+    <value>Sign off</value>
+  </data>
+  <data name="strView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="strDocument" xml:space="preserve">
+    <value>document</value>
+  </data>
+  <data name="strLink" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="BackColorNormal" xml:space="preserve">
+    <value>213, 220, 228</value>
+    <comment>Standard background color for windows forms.</comment>
+  </data>
+  <data name="DisabledColor" xml:space="preserve">
+    <value>227, 231, 236</value>
+    <comment>Color for disabled forms.</comment>
+  </data>
+  <data name="BackColorForNormalField" xml:space="preserve">
+    <value>255, 255, 255</value>
+    <comment>Background color for fields which either are not required or completed.</comment>
+  </data>
+  <data name="BackColorForRequiredField" xml:space="preserve">
+    <value>245,160,75</value>
+    <comment>Background color for fields which are required but not completed.</comment>
+  </data>
+  <data name="TabForeColor" xml:space="preserve">
+    <value>81, 82, 100</value>
+    <comment>Tabpage forground color.</comment>
+  </data>
+  <data name="SelectedTabColor" xml:space="preserve">
+    <value>213, 220, 228</value>
+    <comment>Color for the selected tabpage in a tabcontrol.</comment>
+  </data>
+  <data name="NonSelectedTabColor" xml:space="preserve">
+    <value>230, 234, 238</value>
+    <comment>Color for all the nonselected tabpages in the tabcontrol.</comment>
+  </data>
+  <data name="TitleColor" xml:space="preserve">
+    <value>42, 95, 170</value>
+    <comment>Titlebar background color.</comment>
+  </data>
+  <data name="LinkLabelColor" xml:space="preserve">
+    <value>42, 95, 170</value>
+    <comment>Linklabel font color.</comment>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Segoe UI, 8, regular</value>
+    <comment>Standard Varian Font</comment>
+  </data>
+  <data name="ButtonFont" xml:space="preserve">
+    <value>Segoe UI, 8, regular</value>
+    <comment>Button Font</comment>
+  </data>
+  <data name="LabelFont" xml:space="preserve">
+    <value>Segoe UI, 8, regular</value>
+    <comment>Label Font</comment>
+  </data>
+  <data name="TitleBarFont" xml:space="preserve">
+    <value>Segoe UI, 11, Regular</value>
+    <comment>Title Bar Font</comment>
+  </data>
+  <data name="TextAlign" xml:space="preserve">
+    <value>TopRight</value>
+    <comment>Text Alignment</comment>
+  </data>
+  <data name="StatusBarFont" xml:space="preserve">
+    <value>Segoe UI, 8, Regular</value>
+    <comment>Status Bar Font</comment>
+  </data>
+  <data name="ControlHighLightColor" xml:space="preserve">
+    <value>246, 133, 86</value>
+    <comment>Color for highlighting a control</comment>
+  </data>
+  <data name="AvailableHourBackGroundColor" xml:space="preserve">
+    <value>189,215, 176</value>
+    <comment>Color for available time in Schedule</comment>
+  </data>
+  <data name="WorkHourBackGroundColor" xml:space="preserve">
+    <value>219,218,172</value>
+    <comment>Color of Schedule</comment>
+  </data>
+  <data name="HourBackGroundColor" xml:space="preserve">
+    <value>197, 194,118</value>
+    <comment>Color of Schedule</comment>
+  </data>
+  <data name="MonthBackGroundColor" xml:space="preserve">
+    <value>242, 244, 247</value>
+    <comment>Back Color of Schedule in weekly/monthly View</comment>
+  </data>
+  <data name="AppointmentColor" xml:space="preserve">
+    <value>255, 255, 255</value>
+    <comment>Back Color for Appointment</comment>
+  </data>
+  <data name="JanusDataGridAlternatingRowBackColor" xml:space="preserve">
+    <value>222,234,248</value>
+    <comment>BackColor for Alternate Row of JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridFilterRowBackColor" xml:space="preserve">
+    <value>255,255,210</value>
+    <comment>BackColor for Filter Row of JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridFilterRowForeColor" xml:space="preserve">
+    <value>0,0,153</value>
+    <comment>ForeColor for Filter Row of JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridGroupRowFont" xml:space="preserve">
+    <value>Segoe UI, 9, regular</value>
+    <comment>Group Row Font for JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridGroupRowBackColor" xml:space="preserve">
+    <value>185,206,230</value>
+    <comment>Group Row Back Color for JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridGroupByBoxFont" xml:space="preserve">
+    <value>Segoe UI, 8,regular</value>
+    <comment>Group By Box Text Font for JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridGroupByBoxBackColor" xml:space="preserve">
+    <value>213,220,228</value>
+    <comment>Group By Box Back Color for JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridGroupTotalRowBackColor" xml:space="preserve">
+    <value>213,220,228</value>
+    <comment>Group Total Row Back Color for JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridGroupTotalRowFont" xml:space="preserve">
+    <value>Segoe UI, 8,regular</value>
+    <comment>Group Total Row Font for JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridTotalRowFont" xml:space="preserve">
+    <value>Segoe UI, 9,regular</value>
+    <comment>Total Row Font for JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridTotalRowBackColor" xml:space="preserve">
+    <value>42,95,170</value>
+    <comment>Total Row Back Color for JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridTitleFont" xml:space="preserve">
+    <value>Segoe UI, 8,Bold</value>
+    <comment>Title Text Font of JanusDataGrid</comment>
+  </data>
+  <data name="JanusDataGridFont" xml:space="preserve">
+    <value>Segoe UI, 8, Regular</value>
+    <comment>Cell Text Font for Grid Data</comment>
+  </data>
+  <data name="HolidayBackGroundColor" xml:space="preserve">
+    <value>197, 194,118</value>
+    <comment>Background Color for Holidays in Schedule View</comment>
+  </data>
+  <data name="JanusDataGridInActiveForeColor" xml:space="preserve">
+    <value>132,132,132</value>
+    <comment>Fore Color of Disabled Row</comment>
+  </data>
+  <data name="JanusDataGridPlaceHolderRowBackColor" xml:space="preserve">
+    <value>240,240,240</value>
+    <comment>Place Holder Row Back Color</comment>
+  </data>
+  <data name="JanusDataGridModifiedRowBackColor" xml:space="preserve">
+    <value>180,255,180</value>
+    <comment>Modified Row Back Color</comment>
+  </data>
+  <data name="TitleBarFontColor" xml:space="preserve">
+    <value>255,255,255</value>
+  </data>
+  <data name="ModernizedFont" xml:space="preserve">
+    <value>Segoe UI, 10, regular</value>
+  </data>
+</root>
