@@ -35,14 +35,20 @@ User can change the Schedule display/view type using the options present in ***V
 
 ### 4. Select single/multiple appointments - 
 User can select single/multiple appointment(s) on the Schedule view. 
+</br>
+![image](/Images/select_appointments.png)
 
 **Expectation:** The test should be able to identify the number of selected appointment(s). The ***SelectedAppointments*** property of the control provides the information of selected appointment(s).
 
 ### 5. Check the appointment information - 
 The test should be able to read and provide the information of the appointment displayed in the appointment bubble for the selected appointment.
+</br>
+![image](/Images/appointment_info.png)
 
 ### 6. Check the appointment tooltip information - 
 When mouse hovered over the appointment bubble, a tooltip is displayed with appointment information. The test should be able to identify the tooltip information.
+</br>
+![image](/Images/appointment_tooltip.png)
 
 ### 7. Copy/Paste appointment - 
 User can select a single or multiple appointments to copy and paste on the Schedule using Context menu or Ctrl+C & Ctrl+V options.
@@ -58,9 +64,13 @@ The test should be able to drag and drop the appointment from waitlist gridview 
 ### 10. Select date in the Calendar control - 
 The test should be able to select a date in the calendar control to navigate the schedule to the selected date. If the displayed view type is Day view the selected date in calendar will be shown.
 If the view type is workweek, then the week for the selected date will be shown.
+</br>
+![image](/Images/calendar.png)
 
 ### 11. Context menu operation - 
 The test should be able to select a timeslot in the Schedule to open the context menu. The context menu options should be then selected to perform additional operations.
+</br>
+![image](/Images/context_menu.png)
 
 ### 12. Appointment Context menu operation - 
 The test should be able to select an appointment to open the context menu and perform operations.
@@ -68,9 +78,19 @@ The test should be able to select an appointment to open the context menu and pe
 ### 13. Double click on selected timeslot to create appointment – 
 The test should be able to select the timeslot on the schedule view and perform mouse double click operation to create a new appointment.
 
-
 ### 14. Change time navigator frequency – 
 The test should be able to perform right click mouse action on the time navigator bar to change the timeslot display frequency.
 The test should be able to identify the selected timeslot frequency. This can be identified using Interval property of the control.
+</br>
+![image](/Images/time_navigator_contextmenu.png)
 
+### 15. Verify resource availability - 
+The resource availability is shown with different color coding in the Schedule view.
+**Expectation:** The test should be able to identify the backcolor of the selected cell in the Schedule view.
+</br>
+![image](/Images/availability.png)
 
+</br>
+In the image shown above, the user John is available for 8:00 am to 5:00 pm for Monday, Wednesday, Thursday and Friday. For Tuesday, he is available from 8:00am to 11:00am and 2:00pm to 4:00pm.
+The golden yellow color is highlighting that, the department is not working.
+The light green color indicates the working hours of the resource.

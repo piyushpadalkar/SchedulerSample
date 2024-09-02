@@ -7,10 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleTest", "ScheduleTes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6BECDC1-2C8C-455D-8EC9-34BB3DAEC590}"
 	ProjectSection(SolutionItems) = preProject
+		Images\appointment_info.png = Images\appointment_info.png
+		Images\appointment_tooltip.png = Images\appointment_tooltip.png
+		Images\availability.png = Images\availability.png
+		Images\calendar.png = Images\calendar.png
+		Images\context_menu.png = Images\context_menu.png
 		readme.md = readme.md
+		Images\select_appointments.png = Images\select_appointments.png
 		Images\singleresource_dayview.png = Images\singleresource_dayview.png
 		Images\singleresource_monthview.png = Images\singleresource_monthview.png
 		Images\singleresource_workweekview.png = Images\singleresource_workweekview.png
+		Images\time_navigator_contextmenu.png = Images\time_navigator_contextmenu.png
 	EndProjectSection
 EndProject
 Global
