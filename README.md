@@ -8,7 +8,7 @@ This documents outlines the various use cases available in the sample applicatio
 Use the Apply button on the UI to populate appointments on the Schedule control. The appointments will be added for the current date and for next 2 days.
 By default the view is configured for multiple resources and work week view.
 The dates in the Calendar control are highlighted for which the appointments are present.
-![image](images/singleresource_workweekview.png)
+![image](/images/singleresource_workweekview.png)
 
 **Expectation:** The test should be able to identify number of appointments displayed in the schedule view.
 
