@@ -8,7 +8,7 @@ This documents outlines the various use cases available in the sample applicatio
 Use the Apply button on the UI to populate appointments on the Schedule control. The appointments will be added for the current date and for next 2 days.
 By default the view is configured for multiple resources and work week view.
 The dates in the Calendar control are highlighted for which the appointments are present.
-![image](/images/singleresource_workweekview.png)
+![image](/Images/singleresource_workweekview.png)
 
 **Expectation:** The test should be able to identify number of appointments displayed in the schedule view.
 
@@ -25,11 +25,11 @@ The various options are listed below - <br>
 User can change the Schedule display/view type using the options present in ***View Type*** group box. The varoius options are listed below - <br>
 
 1. Day - The option will change the display of schedule to Day type
-![image](../images/singleresource_dayview.png)
+![image](/Images/singleresource_dayview.png)
 1. Work week - The option will change the display of schedule to Work week (typically Monday-Friday)
-![image](../images/singleresource_workweekview.png)
+![image](/Images/singleresource_workweekview.png)
 3. Month - The option will change the display of schedule to Month view.
-![image](../images/singleresource_monthview.png)
+![image](/Images/singleresource_monthview.png)
 
 **Expectation:** The test should be able to identify the schedule display type. The ***View*** property of the control determines the display type.
 
